@@ -1,0 +1,6 @@
+train: /content/CowDetect/Data/customData/train/images
+val: /content/CowDetect/Data/customData/valid/images
+test: /content/CowDetect/Data/customData/test/images
+
+nc: 1
+names: ['cow']
