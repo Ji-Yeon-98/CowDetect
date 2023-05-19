@@ -29,9 +29,12 @@
 - 모든 레이어 훈련
 
 
+<br/>
+----
+
 ## install
 
-'''
+```
 git clone https://github.com/Jang-jiwon/CowDetect.git
 cd CowDetect
 git submodule update --init --recursive
@@ -39,7 +42,7 @@ cd StrongSORT-YOLO
 pip install -r requirements.txt
 wget https://www.dropbox.com/s/x4x6fr88lbgb504/sample_video.mp4
 wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e_training.pt -O /content/CowDetect/StrongSORT-YOLO/yolov7/yolov7-e6e_training.pt
-'''
+```
 
 <br/>
 
