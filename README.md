@@ -42,7 +42,7 @@ yolov7과 deepsort기반 젖소 객체 추적 프로젝트
 ## install
 
 ```
-git clone https://github.com/Jang-jiwon/CowDetect.git
+git clone https://github.com/Ji-Yeon-98/CowDetect.git
 cd CowDetect
 git submodule update --init --recursive
 cd StrongSORT-YOLO
