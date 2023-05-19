@@ -6,8 +6,7 @@
 
 ## 수행 과정
 
-!(./결과표.jpg)
-
+<img src="https://github.com/Ji-Yeon-98/CowDetect/blob/master/img/%EA%B2%B0%EA%B3%BC%ED%91%9C.png">
 
 ### 1. 데이터 전처리
 
