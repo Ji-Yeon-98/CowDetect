@@ -2,13 +2,14 @@
 
 영상 정보만 가지고 젖소의 활동량을 계산해 가임기와 발정기를 파악하고 예측하는 프로젝트
 
-
 <br/>
 
 
 ## 수행 과정
 
 <img src="https://github.com/Ji-Yeon-98/CowDetect/blob/master/img/%EA%B2%B0%EA%B3%BC%ED%91%9C.png">
+
+<br/>
 
 ### 1. 데이터 전처리
 
