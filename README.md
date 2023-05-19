@@ -13,6 +13,7 @@
 
 ### 1. 데이터 전처리
 
+<img src="https://github.com/Ji-Yeon-98/CowDetect/blob/master/img/%EB%9D%BC%EB%B2%A8%EB%A7%81.png">
 
 - 저작권이 없는 젖소 이미지와 목장 이미지 데이터를 수집
 - 로보 플로우를 이용하여 직접 데이터 라벨링 & 데이터 전처리
