@@ -30,7 +30,8 @@
 
 
 <br/>
-----
+
+------
 
 ## install
 
@@ -53,7 +54,7 @@ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e_trai
 $python train.py --workers 8 --device 0 --freeze 105 --batch-size 32 --data ../your_path/data.yaml --img 416 416 --cfg cfg/training/yolov7.yaml --weights 'yolov7_training.pt' --name yolov7-custom --hyp data/hyp.scratch.custom.yaml
 ```
 
-2. 프리징 안하는 경우
+2. 모든 레이어로 훈련하는 
 
 ```
 $python train.py --workers 8 --device 0 --batch-size 32 --data ../your_path/data.yaml --img 416 416 --weights 'yolov7_training.pt' --name yolov7-custom 
