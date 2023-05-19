@@ -55,12 +55,12 @@ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e_trai
 
 ## train
 
-1. 프리징하여 일부 레이어만 훈련하는 경우
+1. 프리징하여 일부 레이어만 훈련하는 방법
 ```
 $python train.py --workers 8 --device 0 --freeze 105 --batch-size 32 --data ../your_path/data.yaml --img 416 416 --cfg cfg/training/yolov7.yaml --weights 'yolov7_training.pt' --name yolov7-custom --hyp data/hyp.scratch.custom.yaml
 ```
 
-2. 모든 레이어로 훈련하는 
+2. 모든 레이어로 훈련하는 방법
 
 ```
 $python train.py --workers 8 --device 0 --batch-size 32 --data ../your_path/data.yaml --img 416 416 --weights 'yolov7_training.pt' --name yolov7-custom 
@@ -76,7 +76,8 @@ $python track_v7.py --source sample_video.mp4 --save-vid --class 19 --yolo-weigh
 
 
 <br/>
+<br/>
 
-[코랩 실행 ](https://colab.research.google.com/drive/1LUGrj9JV_b57GytSasXJPIucwrLxi6Ai?usp=sharing)
+[코랩 실행 코드](https://colab.research.google.com/drive/1LUGrj9JV_b57GytSasXJPIucwrLxi6Ai?usp=sharing)
 
 
