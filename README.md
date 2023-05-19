@@ -46,20 +46,20 @@ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e_trai
 ## train
 
 1. 프리징하여 일부 레이어만 훈련하는 경우
-'''
+```
 $python train.py --workers 8 --device 0 --freeze 105 --batch-size 32 --data ../your_path/data.yaml --img 416 416 --cfg cfg/training/yolov7.yaml --weights 'yolov7_training.pt' --name yolov7-custom --hyp data/hyp.scratch.custom.yaml
-'''
+```
 
 2. 프리징 안하는 경우
 
-'''
+```
 $python train.py --workers 8 --device 0 --batch-size 32 --data ../your_path/data.yaml --img 416 416 --weights 'yolov7_training.pt' --name yolov7-custom 
-'''
+```
 
 <br/>
 
 ## tracking
 
-'''
+```
 $python track_v7.py --source sample_video.mp4 --save-vid --class 19 --yolo-weights ../your_path/yolov7-e6e_training.pt
-'''
+```
